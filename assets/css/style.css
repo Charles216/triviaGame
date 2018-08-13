@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family:fantasy;
+    
+}
+h1{
+    border: double white 2px;
+    background-color: rgba(84, 121, 201, 0.741);
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.jumbotron{
+    background-color:rgba(84, 121, 201, 0.741);
+    border: 5px white double;
+    padding: 15px;
+}
+body{
+    background-image: url("https://static.tumblr.com/cd413dd9efd4eb5de6b7e83b096c4d38/uka3agu/M8Lo4aq9a/tumblr_static_tumblr_static_c9q4xvyiifc40o0o8k4gsgwkk_640.jpg");
+    width: 960px;
+    text-align: center;    
+    margin: auto;
+    padding-top: 0px;
+    }
+
+#timer{
+    margin: 0px 100px 10px 100px;
+    padding: 10px 30px 10px 30px;
+    border: 3px white double;
+    background-color: snow;
+    text-align: center;
+}
+.btn {
+    float: center;
+    
+}
+
+#answerBox {
+    font-size: 20px;
+}
+
+#next {
+    border: 3px white solid;
+    margin-bottom: 40px;
+}
+#result {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(84, 121, 201, 0.741);
+    font-size: 30px;
+    border: 2px white solid;
+}
+    
+
+
+

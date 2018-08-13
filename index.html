@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Trivia Game</title>
 </head>
-
 <body>
-    <h1>Super Awesome Trivia Game!</h1>
+    <h1>Super Cool Trivia Game!</h1>
     <br/>
     <br/>
-    <a href="#" id="start" class="btn btn-primary btn-lg">Let's Begin</a>
+    <a href="#" id="start" class="btn btn-primary btn-lg">Click to Begin Quiz!</a>
     <br/>
-    <div class="well jumbotron">
-        <h3 id="question"></h3>
-        <br/><br/>
-        <form id="form">
-
-        </form>
-        <br/>
-        <a href="#" id="next" class="button">Next</a><br/>
-        <div id="progressbar" class="progress-bar progress-bar-striped"></div>
+    <div class="jumbotron">
+      <div id='timer'>Timer goes here</div>
+        <h3 id="questionBox"></h3>
+      <br/><br/>
+      <form id="answerBox">
+    
+      </form>
+      <br/>
+      <a href="#" id="next" class="btn btn-primary btn-lg">Next Question</a><br/>
     </div>
     
     <div id="result"></div>
-    </div>
-    
-    
+
 
 <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='crossorigin='anonymous'></script>
-<script src="javascript/app.js"></script>
+<script src="assets/javascript/app.js"></script>
+
 
 </body>
 </html>
